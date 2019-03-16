@@ -1,0 +1,17 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "A Discord bot which listens for card name matches and replies with card info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Ricardo Velasco",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.1.0",
+    "fuzzy-search": "^1.4.0",
+    "lodash": "^4.17.4"
+  }
+}
